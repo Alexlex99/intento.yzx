@@ -165,8 +165,8 @@ app.get('/*',(req,res)=>{
 					res.send('vaiax2');
 				}else if (path.indexOf('jpg')!=-1) {
 					res.send('vaiax3');
-				}else if (path.indexOf('js')!=-1) {
-					res.send('vaiax4');
+				/*else if (path.indexOf('js')!=-1) {
+					res.send('vaiax4');*/
 				}else if(path.indexOf('ico')!=-1){
 					res.send('vaiax5');
 				}else{
